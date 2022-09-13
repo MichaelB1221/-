@@ -12,10 +12,8 @@ Days['Воскресенье'] = 7
 def test_dict_1():
     assert 'Среда' in Days
 
-
-
-
-
+def test_dict_2():
+    assert 'Среда' == 'Пятница' in Days
 
 
 @pytest.mark.parametrize("input1, input2, output" ,[(2 ,4 ,8) ,(12 ,2 ,24)])
